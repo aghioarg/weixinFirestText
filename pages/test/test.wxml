@@ -1,0 +1,10 @@
+<!--pages/test/test.wxml-->
+<view>
+  <text>我是第1个文本</text>
+  <text>{{title2}}</text>
+  <text wx:if="{{isShow}}">我是第3个文本</text>
+  <text>我是第4个文本</text>
+  <text wx:if="{{lengt > 2 && lengt < 5}}">大于2</text>
+  <text wx:elif="{{lengt > 5 && lengt < 8}}">666</text>
+  <text wx:else>7</text>
+</view>
