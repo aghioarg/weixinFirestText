@@ -1,6 +1,7 @@
 <!--pages/test/test.wxml-->
 <view>
-  <text>我是第1个文本</text>
+  <view hover-class="hover-class-style"
+  hover-start-time='500'>我是第1个文本</view>
   <text>{{title2}}</text>
   <text wx:if="{{isShow}}">我是第3个文本</text>
   <text>我是第4个文本</text>
