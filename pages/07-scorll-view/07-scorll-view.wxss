@@ -1,0 +1,12 @@
+/* pages/07-scorll-view/07-scorll-view.wxss */
+.contain1{
+  background-color: blue;
+  white-space: nowrap;
+}
+.item1{
+  width:100rpx;
+  height:100rpx;
+  margin:10rpx;
+  background-color: #fff;
+  display: inline-block;
+}

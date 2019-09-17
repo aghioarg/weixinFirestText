@@ -1,0 +1,7 @@
+<!--pages/05-button/05-button.wxml-->
+<button>按钮</button>
+<button size="mini" type="warn">按钮</button>
+<button size="mini" plain>按钮</button>
+<button disabled size="mini">按钮</button>
+<button open-type="getUserInfo">按钮</button>
+<button hover-class="activeBtn">按钮</button>

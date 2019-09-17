@@ -1,0 +1,11 @@
+<!--pages/06-input/06-input.wxml-->
+<input></input>
+<input value="value"></input>
+<!-- idcard 开发者工具作为演示不弹模拟键盘 -->
+<input type="idcard"></input>
+<input type="text" confirm-type="go"></input>
+<!-- input绑定事件 -->
+<input 
+bindinput="handleInput"
+bindblur="handleBlur"
+bindfocus="handleFocus"></input>

@@ -1,0 +1,5 @@
+/* pages/05-button/05-button.wxss */
+.activeBtn{
+  background-color: blue;
+  color: #fff
+}

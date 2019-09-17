@@ -1,0 +1,31 @@
+/* pages/04-xcheng/04-xcheng.wxss */
+.boxItem{
+  height:200rpx;
+  display: flex;
+  flex-direction: row;
+}
+.boxLf{
+flex:1;
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.boxLr{
+flex:2;
+color: #fff;
+display: flex;
+flex-direction: row;
+}
+.boxLf image{
+  width:100rpx;
+  height:100rpx;
+}
+.boxLf text{
+  font-size:32rpx;
+}
+.lrItem{
+  display: flex;
+  flex-direction: row;
+}

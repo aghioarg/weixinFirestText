@@ -1,0 +1,11 @@
+<!--pages/07-scorll-view/07-scorll-view.wxml-->
+<!-- 1.水平滚动 -->
+<scroll-view 
+  class="contain1"  
+  scroll-x 
+  bindscrolltolower="bindXR"
+  >
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+<view wx:if="{{isShowEnd}}">滚动到头了</view>
+<!-- 2.垂直滚动 -->

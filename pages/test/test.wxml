@@ -8,4 +8,7 @@
   <text wx:if="{{lengt > 2 && lengt < 5}}">大于2</text>
   <text wx:elif="{{lengt > 5 && lengt < 8}}">666</text>
   <text wx:else>7</text>
+  <view style="background:red">我是一个view111</view>
+  <view class="style2">我是一个view222</view>
+  <view class="fs globle-style">我是一个view333</view>
 </view>

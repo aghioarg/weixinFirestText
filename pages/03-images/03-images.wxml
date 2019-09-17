@@ -1,0 +1,7 @@
+<!--pages/03-images/03-images.wxml-->
+<view>1.加载项目中的图片</view>
+<image src="../../images/apIco1.png"></image>
+<image src="http://n.sinaimg.cn/news/transform/700/w1000h500/20190917/a324-ietnfsp8242573.jpg"
+mode="scaleToFill"></image>
+
+<view>2.加载项目中的图片</view>

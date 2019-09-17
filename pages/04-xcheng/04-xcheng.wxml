@@ -1,0 +1,26 @@
+<!--pages/04-xcheng/04-xcheng.wxml-->
+<view 
+  wx:for="{{itemBeans}}" 
+  wx:for-item="item"
+  wx:for-index="index"
+  style="background:{{item.bgColor}}">
+  <view class="boxLf">
+     <text>{{item.title}}</text>
+     <image src="{{item.imageUrl}}"></image>
+  </view>
+  <view class="boxLr">
+    <view 
+    wx:for="{{item.items}}" 
+   wx:for-item="lrItem"
+  wx:for-index="index"
+    class="lrItem">
+    <text>{{lrItem.title}}</text>
+    </view>
+  </view>
+</view>
+<button 
+open-type="getUserInfo"
+bindgetuserinfo="handleGetUserInfo">获取用户授权</button>
+<!-- 用于展示微信开放数据 -->
+<open-data type="userNickName"></open-data>
+<!-- <open-data type="userAvatarUrl"></open-data> -->
